@@ -10,7 +10,7 @@ app.use(express.json())//helps in parsing the req.body data in req and res objec
 //app.use(cors())//cross origin request to frontend
 
 app.get("/",function(req,res){
-    res.send("hello world")
+    res.send("hello world2")
 })
 
 app.use("/api/menue",userRouter);
